@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from "url";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/funhub/CandyArt/",
+  base: "/funhub/candyArt/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
