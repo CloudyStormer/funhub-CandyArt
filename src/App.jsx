@@ -6,7 +6,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
+    <BrowserRouter basename='/funhub/CandyArt'>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
