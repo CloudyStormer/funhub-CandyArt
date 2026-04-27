@@ -19,12 +19,12 @@ const Home = () => {
       >
         <div className="flex-1 overflow-y-auto no-scrollbar pb-[78px]">
           <HeroSection />
-          <ServiceBadges />
+          {/* <ServiceBadges /> */}
           <div className="px-5 mb-1">
             <div className="h-px bg-border" />
           </div>
           <DesignGallery />
-          <div className="px-5 my-1">
+          {/* <div className="px-5 my-1">
             <div className="h-px bg-border" />
           </div>
           <ContactCard />
@@ -35,7 +35,7 @@ const Home = () => {
           <div className="px-5 my-1">
             <div className="h-px bg-border" />
           </div>
-          <BookingForm />
+          <BookingForm /> */}
           <ContactFooter />
         </div>
         <HomeBottomNav activeTab={activeTab} onTabChange={setActiveTab} />

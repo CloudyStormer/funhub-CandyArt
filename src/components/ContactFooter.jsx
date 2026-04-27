@@ -10,7 +10,7 @@ const ContactFooter = () => {
         <div className="flex-1 h-px bg-border" />
       </div>
       <p className="text-[11px] text-muted-foreground">
-        © 2024 Magical Face Painting. All rights reserved.
+        Laugh like a child.
       </p>
       <p className="text-[10px] text-muted-foreground mt-1" style={{ opacity: 0.6 }}>
         让每一个孩子都成为小公主 ✨
